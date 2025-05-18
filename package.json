@@ -1,0 +1,35 @@
+{
+  "name": "server.js",
+  "version": "1.0.0",
+  "description": "social network for developers",
+  "homepage": "https://github.com/vdalal27/devconnector_2.0#readme",
+  "bugs": {
+    "url": "https://github.com/vdalal27/devconnector_2.0/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdalal27/devconnector_2.0.git"
+  },
+  "license": "MIT",
+  "author": "Vandana Dalal",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "config": "^4.0.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.10"
+  }
+}
